@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+*{
+	font-family: 'Dongle', sans-serif;
+}
+*/
+
+h3
+{
+	text-align: center;
+	margin: 50px;
+}
+td:nth-child(1)>label
+{
+	background-color: #c69;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	width: 80%;
+	display: inline-block;
+	padding: 10px;
+}
+
+input[type=text],input[type=password],input[type=email]
+{
+	width: 60%
+}
+
+input[type=number],input[type=age]
+{
+	width: 10%
+}
+
+input, select
+{
+	padding: 6px;
+	border-radius: 6px;
+	border: 1px solid gray;
+}
+
+table
+{
+	margin: auto;
+}
